@@ -1,8 +1,9 @@
 name: Scheduled fast-forward from master to managed-services
-on:
-  schedule:
-    - cron: '0 10 * * THU'
-
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   schedule:
+#     - cron: '0 10 * * THU'
+# 
 jobs:
   check:
     env:
